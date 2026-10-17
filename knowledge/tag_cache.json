@@ -1,0 +1,3138 @@
+{
+"9f6992ab5b7e52a0": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause outlining ASCI pledge."
+},
+"285ad47b9fdd3a15": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause detailing ASCI code structure and chapters."
+},
+"2f822d60c64dd056": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause describing ASCI recognitions and partnerships."
+},
+"5a2b584bf925e2a2": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause listing government acts and ASCI recognitions."
+},
+"fc6faf2d20274876": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause referencing insurance regulatory act and ASCI adherence."
+},
+"02bdabdfed0ce573": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause mentioning NHAI and ASCI regulatory collaboration."
+},
+"46027ae2a7a05b78": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause noting ASCI inclusion in press and broadcasting guidelines."
+},
+"95ccae1d3887621c": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause listing key regulatory stakeholders."
+},
+"56286bd6449c195e": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause listing key regulatory stakeholders."
+},
+"de1408501dc26515": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause introducing ASCI and its purpose."
+},
+"67b8ca010d2f05a3": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Broad principle ensuring truthfulness and honesty in all advertisements."
+},
+"e4b83b1dcc9d4d22": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Defines responsibility of parties involved in advertising."
+},
+"26c8a22cc7ee8fe3": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "States that the Code complements legal controls."
+},
+"728b316c25408b8c": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Regulatory requirement for cable TV services."
+},
+"14f9d0727e9cf167": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Specifies prohibition of Code-violating ads on cable."
+},
+"be9c9bdc7eb115fe": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Provides definitions of key terms used in the Code."
+},
+"425bc0e36525ef5f": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Sets minimum standards of conduct for advertising."
+},
+"8da19b1a473fe38f": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Affirms commitment to truthfulness and honesty in representations."
+},
+"f033d3f484d8d93e": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Mandates truthfulness and substantiability of all claims and comparisons."
+},
+"c8578e6f7dace2bf": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Requires disclosure of source and date for research-based claims."
+},
+"9ca437ab0feb417d": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Prevents unjustified advantage or ridicule, ensuring truthful representation."
+},
+"11891c324e0bab59": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Prohibits distortion, omission or exaggeration that could mislead consumers."
+},
+"42b5fcd2262a7680": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Disallows exaggerated claims that could cause widespread disappointment."
+},
+"aa9d5e9b2cb5d67d": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Requires clear disclosure of costs and free offers to avoid misleading pricing claims."
+},
+"1b5a48f904550b90": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Allows hyperbolic humor only if clearly identified as such, preventing literal misinterpretation."
+},
+"3204844ad61a57d7": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Permits occasional lapses but requires fulfillment capability and corrective action."
+},
+"dbc283b6a94325d4": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Mandates upfront disclosure for social media ads to distinguish them from editorial content."
+},
+"dbae64f875655847": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Ensures ads are not offensive or indecent, maintaining truthful representation."
+},
+"a974f417f96ecbb7": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Prevents advertising of hazardous or harmful products, upholding truthful standards."
+},
+"57e82655d60b70d0": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Bans ads that incite crime, hate or emulate criminality, ensuring truthful and non-harmful content."
+},
+"fb35fa13f4bcb236": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative rule setting restrictions on child-targeted ads."
+},
+"5809375e1d9f1b2d": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative rule prohibiting child imagery for tobacco/alcohol."
+},
+"70756b755efaad46": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative rule against depicting dangerous practices."
+},
+"4ad519d40af3a650": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative rule requiring compliance with law."
+},
+"5f279fbaf0e42a7d": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative rule banning promotion of illegal products."
+},
+"111bd41503502deb": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative rule preventing circumvention of advertising restrictions."
+},
+"f1797378313c1971": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative rule on fair competition."
+},
+"c72547764b8bdf34": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative rule permitting comparisons under conditions."
+},
+"82a4b48ecd412935": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative rule against unjustifiable use of others' names."
+},
+"5a945705d1b6a547": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative rule against plagiarism in ads."
+},
+"a0bca32fe73e9189": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause about complaint scope."
+},
+"a4ee289b1ffe4b25": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative guideline on automotive safety depiction."
+},
+"f89d78252affe6ae": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative criteria for brand extension."
+},
+"441fa774394f1bdc": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative registration and criteria for brand extension."
+},
+"59005a0d84708a70": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative advertising budget limits for brand extension."
+},
+"683275bc2be8da61": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative general guidelines for F&B advertising."
+},
+"8184f089813d17c4": {
+"claim_types": [
+"efficacy",
+"nutrition_health",
+"scientific"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Claims about health or intelligence require evidence and scientific basis."
+},
+"13db2f3105b77502": {
+"claim_types": [
+"nutrition_health",
+"scientific"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Health or nutritional claims must be supported by scientific evidence."
+},
+"add6ee2efaa632cc": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Disparaging good dietary practice is a general truthfulness issue."
+},
+"ad639e6615f31a6b": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Encouraging over consumption is a general truthfulness concern."
+},
+"ab9fb3133aad5281": {
+"claim_types": [
+"general_truthfulness",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "prevents misleading nutritive value claims"
+},
+"a28cc7404a034cd2": {
+"claim_types": [
+"general_truthfulness",
+"children"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "prevents undermining parental care for children"
+},
+"5fadaea04c863aa1": {
+"claim_types": [
+"general_truthfulness",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "prevents meal replacement claims for non‑designed foods"
+},
+"74da9b1e75af76c2": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "ensures consistency with label/packaging"
+},
+"aed6e491fdf871d4": {
+"claim_types": [
+"general_truthfulness",
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "prevents unverified endorsement claims"
+},
+"0a65993027f16704": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "preamble, no claim"
+},
+"bcbd42d873db84d7": {
+"claim_types": [
+"general_truthfulness",
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "prevents false official status claims"
+},
+"214be07d6812c579": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "prevents guarantee of rank/job claims"
+},
+"8db2626fc7fc09d9": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "prevents abstract 100% claims"
+},
+"30a96ff351a31d0d": {
+"claim_types": [
+"general_truthfulness",
+"children"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "prevents normalising unhealthy habits for students"
+},
+"240fe226823c6992": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Ensures truthful portrayal of student performance, preventing misleading implications."
+},
+"3108f98de6723e6f": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Prohibits creating false urgency or fear, maintaining truthful messaging."
+},
+"70675435377dfa8b": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Prevents gender and stereotype-based misleading claims about students."
+},
+"b4b6559c6bde2147": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative guidance on disclaimer use."
+},
+"31677f98a3cb2b15": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Mandates that a disclaimer must not contradict the main claim, ensuring truthful communication."
+},
+"476074efc3d7a121": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Disallows suppression of material information that could render a claim deceptive."
+},
+"0ceb01a68e3bf1f2": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Disallows using a disclaimer to correct a misleading claim, preserving truthfulness."
+},
+"0d34eb801aaa6f76": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative guidance on disclaimer legibility."
+},
+"27df6a8187701646": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Technical specification for text size in standard definition images."
+},
+"8f7ca795eea44bb6": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Technical specification for text size in high-definition images."
+},
+"8ad7855fd56e6b9a": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Clause specifies font size requirements for disclaimers, an administrative rule."
+},
+"469babfc17319eb5": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Clause outlines disclaimer readability and comprehension, an administrative rule."
+},
+"fdeaf9f44dc290ce": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Clause sets audio disclaimer speed limits, an administrative rule."
+},
+"a7967e8a33ed9fd7": {
+"claim_types": [
+"efficacy",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause governs new/improved product claims, requiring specificity and a 1‑year period."
+},
+"504b7f1cc1c77a9d": {
+"claim_types": [
+"comparative",
+"pricing_offer"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause permits saving claims for larger packs, a comparative pricing claim."
+},
+"608d4d025432d5f3": {
+"claim_types": [
+"appearance",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause prohibits discriminatory skin‑colour messaging, an appearance‑related truthfulness rule."
+},
+"35094b8b0806f01e": {
+"claim_types": [
+"appearance",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause forbids negative portrayal of darker skin, an appearance‑truthfulness rule."
+},
+"6f68c25ebd517d9d": {
+"claim_types": [
+"appearance",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause requires neutral model expressions, an appearance‑truthfulness rule."
+},
+"e256e02369113236": {
+"claim_types": [
+"appearance",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause prohibits linking skin colour to socio‑economic or ethnic categories, an appearance‑truthfulness rule."
+},
+"8ea2822d87838906": {
+"claim_types": [
+"appearance",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause forbids gender‑based discrimination due to skin colour, an appearance‑truthfulness rule."
+},
+"4081e61496de91cd": {
+"claim_types": [
+"general_truthfulness",
+"celebrity_endorsement"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Guidelines for celebrity ads require truthful, substantiated claims and double-checking credibility."
+},
+"67601ff1b68a77e7": {
+"claim_types": [
+"awards_rankings",
+"comparative",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Awards/rankings used for superiority claims must be truthful and not misleading."
+},
+"965b942fb8fcaf03": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "All advertisements must be truthful."
+},
+"6874850828f2f4af": {
+"claim_types": [
+"disclosure",
+"scientific"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Independent research must be cited, ensuring scientific substantiation."
+},
+"0ee743c562a23ca2": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Avoid unjustified advantage or ridicule, maintaining truthfulness."
+},
+"7c49b896c07d3f7e": {
+"claim_types": [
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "All material facts must be disclosed to prevent misleading omission."
+},
+"f94e1e7e3c92a4f1": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Ads should build trust, not exploit consumer ignorance."
+},
+"995045b2323ebb18": {
+"claim_types": [
+"awards_rankings",
+"scientific",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Awards cannot replace scientific research for superiority claims."
+},
+"c2a1f860b53af61e": {
+"claim_types": [
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Name, month, year of award must be disclosed."
+},
+"b32832b834b85615": {
+"claim_types": [
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Validity period of award must be disclosed to ensure current relevance."
+},
+"18b0af6ee035163c": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Requires written consent, a general truthfulness requirement for award claims."
+},
+"7b723bf0a0a2d77b": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Photographs alone insufficient; substantiation needed, a general truthfulness rule."
+},
+"f63eedb8635f3851": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Limits extrapolation of awards, ensuring truthful representation."
+},
+"6392d135212e0cfc": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Mandates independence to avoid misleading claims, a general truthfulness rule."
+},
+"e82aff4b654a05f8": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Requires detailed protocol for award claims, ensuring truthfulness."
+},
+"5906ad3dcb2a4062": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Specifies evaluation parameters for educational awards, a truthfulness requirement."
+},
+"14fe081b14ca30d7": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Details evaluation for healthcare awards, ensuring truthful claims."
+},
+"0cdd72c733375337": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Defines influencer and material connection, a general truthfulness rule."
+},
+"f45f0446945fc2f6": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Lists digital media forms, a general truthfulness context."
+},
+"7a9acdb7623de0d9": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Describes on-demand video platforms, a general truthfulness context."
+},
+"24a541b0528d15a0": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative definitions of media types"
+},
+"4b947cd76870e50b": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative preamble and context"
+},
+"9efde6d5b2c8639c": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Requires disclosure on influencer posts"
+},
+"47e141442c36fe4e": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Defines material connection for disclosure"
+},
+"025130d93ae9f240": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Specifies prominence and placement of disclosure"
+},
+"7536a56a2a226bf5": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Lists acceptable disclosure labels and language"
+},
+"e2fb54048f559f1e": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Requires virtual influencers to disclose they are not real humans."
+},
+"c6ddb63567f9e055": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Assigns responsibility for disclosure to advertiser and influencer"
+},
+"57265adfc0eb94c2": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Mandates due diligence and substantiation of claims"
+},
+"6d2e5a9e2f97cbf9": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Requires declaration of no material connection"
+},
+"d9e3556138a0465d": {
+"claim_types": [
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Requires proof of purchase and qualifications to substantiate claims, ensuring truthful disclosure."
+},
+"eb28efb5c6e8dc62": {
+"claim_types": [
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Mandates SEBI/IRDAI registration and disclosure of qualifications for financial influencers."
+},
+"3136efd32e22bd71": {
+"claim_types": [
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Requires health/nutrition influencers to disclose relevant qualifications."
+},
+"088de48fe4c2c8a3": {
+"claim_types": [
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Specifies prominent disclosure of qualifications in visuals or opening remarks."
+},
+"298f1f1a1b08a7a2": {
+"claim_types": [
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Calls for upfront disclosure in text-based posts."
+},
+"7a26a02699cf8422": {
+"claim_types": [
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Requires disclosure at start of audio content and proof of qualifications."
+},
+"d74a59064d640975": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Defines virtual digital assets, ensuring truthful representation."
+},
+"252a7924523ccdad": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Addresses harmful gender stereotypes, ensuring truthful and non-deceptive portrayal."
+},
+"a3ac9c02f3e35943": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Considers overall impact for truthful representation."
+},
+"2c1b343668ef0e08": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Considers stereotypes from target group perspective for truthful depiction."
+},
+"774194d6aadd249e": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "The clause warns against using humor to mask harmful stereotypes, a general truthfulness requirement."
+},
+"8aacd7bab3ca9afc": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "It prohibits harmful gender stereotypes, a broad truthfulness rule."
+},
+"9cca1a0308e504db": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "It forbids misleading gender role claims, a general truthfulness requirement."
+},
+"d0738554fbd1c3b6": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "It restricts misleading gender stereotypes for children, a general truthfulness rule."
+},
+"b8f9b7e7ecafea85": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "It prohibits misleading claims about happiness tied to gender stereotypes, a general truthfulness rule."
+},
+"8391aa6e82d506b2": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "It forbids mocking gender stereotypes, a general truthfulness requirement."
+},
+"ee9f33830346fa3a": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "It prohibits reinforcing unrealistic gender ideals, a general truthfulness rule."
+},
+"143dd636a29a879d": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "It forbids implying gender-based incapability, a general truthfulness requirement."
+},
+"749c77c27a9bc1a4": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "It prohibits misleading claims about physique and success, a general truthfulness rule."
+},
+"ebe9d85abe136013": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "It forbids sexual objectification, a general truthfulness requirement."
+},
+"f5b076cb26c463dc": {
+"claim_types": [
+"gender",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Addresses gender stereotypes and general truthfulness of content"
+},
+"de80c466ecc1b71e": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Defines deceptive design patterns, a general truthfulness issue"
+},
+"8da134adb5126ee7": {
+"claim_types": [
+"pricing_offer",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Prevents drip pricing, a pricing offer and general truthfulness concern"
+},
+"6d8711341dcb4614": {
+"claim_types": [
+"pricing_offer",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Bait and switch is a misleading pricing offer and general truthfulness issue"
+},
+"18f9b17eed504062": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "False urgency is a general truthfulness concern"
+},
+"23581d61ffc8d071": {
+"claim_types": [
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Disguised ads require disclosure, especially on influencer posts"
+},
+"7df2866418615fa0": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Avoids distressing imagery, a general truthfulness issue"
+},
+"ddb855e750c2de28": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Prevents shaming donors, a general truthfulness issue"
+},
+"a4e24dd026af9f21": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Protects dignity of beneficiaries, a general truthfulness issue"
+},
+"0fc357bd01e1a9f4": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Blurring distressing images, a general truthfulness issue"
+},
+"52119de78dd5c0aa": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "disclosure of fund usage"
+},
+"05ca2f1461ad4c00": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "disclosure of fee"
+},
+"1fe716ec79fd6119": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "general statement on green claim truthfulness"
+},
+"68261a2e25cdefea": {
+"claim_types": [
+"comparative",
+"environmental"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Mandates evidence for comparative environmental claims."
+},
+"bd6f0c2a00d40943": {
+"claim_types": [
+"comparative",
+"environmental"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Requires evidence for comparative environmental claims."
+},
+"b3f0b1b27446f6e0": {
+"claim_types": [
+"environmental"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "specific environmental benefit claim"
+},
+"fd56120e92ae54b1": {
+"claim_types": [
+"environmental"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Absolute environmental claims must be substantiated."
+},
+"7b814e750ba1f470": {
+"claim_types": [
+"comparative",
+"environmental"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "comparative green claim"
+},
+"2b9cc2333c8719ac": {
+"claim_types": [
+"environmental",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "life‑cycle based environmental claim"
+},
+"249b40db3d7055b1": {
+"claim_types": [
+"environmental"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Environmental claim must specify scope (product, packaging, etc.)."
+},
+"66d5e8f7cc512e44": {
+"claim_types": [
+"environmental",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Prevents misleading free‑of claims; requires disclaimer."
+},
+"8254aadf537a6ccb": {
+"claim_types": [
+"environmental"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Certification claims must be clear and accredited."
+},
+"53342b3528deaac0": {
+"claim_types": [
+"environmental",
+"appearance",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause prohibits misleading visual elements that falsely suggest environmental benefit."
+},
+"61bb10563901d2c1": {
+"claim_types": [
+"environmental",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause forbids aspirational environmental claims without actionable plans."
+},
+"f8470c6fe6d25984": {
+"claim_types": [
+"environmental",
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause requires disclosure of carbon offset timing and legality."
+},
+"b76412518546409b": {
+"claim_types": [
+"environmental",
+"scientific",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause mandates scientific evidence for compostable, biodegradable, recyclable claims."
+},
+"cbdd88fa37a27e7b": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Rule sets overall honesty and fairness for AI-generated content, a general truthfulness requirement."
+},
+"29f5dd75680d9d06": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Rule prohibits misleading claims and fabricating endorsements, a general truthfulness rule."
+},
+"c09a69e76787f258": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Rule mandates labeling of SGC that materially influences decisions, ensuring truthfulness."
+},
+"a145fd4566c07476": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Rule specifies when labeling is not required, a general truthfulness guideline."
+},
+"780710bb16d7a030": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause mandates disclosure labels for AI-generated content and sponsored content, requiring truthful labeling."
+},
+"5120598b2cd1f8c3": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Guideline stresses need for clear disclosure to distinguish influencer content from non‑advertising."
+},
+"6bb99313c67405f3": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Defines material connection and requires disclosure for virtual influencers."
+},
+"7c115dc77ac46cd7": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Lists media types; purely administrative."
+},
+"8b2a9b85749aa749": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Requires disclosure on influencer accounts for digital media."
+},
+"0e26e2ec2337ed0c": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Specifies disclosure when material connection exists."
+},
+"7c13d7a45ad2dd66": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Guides placement of disclosure to be prominent and not buried."
+},
+"e0e17db1e1fc39ff": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Details disclosure timing for live streams and audio media."
+},
+"30dbaded0be3bca7": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Assigns responsibility for disclosure to advertiser and influencer."
+},
+"f9a800a2fba05a57": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "Requires influencer disclosure of material connection and substantiation."
+},
+"c353ca80292a9f2b": {
+"claim_types": [
+"environmental"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Specifies that environmental claims must be substantiated and clear."
+},
+"a489b7ec8476a735": {
+"claim_types": [
+"comparative",
+"environmental"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Evidence required for comparative environmental claims."
+},
+"0c560c6da2ee8bfc": {
+"claim_types": [
+"environmental"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "General environmental claim must cover full life cycle."
+},
+"1056e48bdb89d5f7": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause – title and commencement."
+},
+"454d6ddf2db9bfaf": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause – short title."
+},
+"688a8f844d1c95ad": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause – definitions."
+},
+"9b64c9b6034d2885": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause – application and prohibition."
+},
+"9a267669cce76a40": {
+"claim_types": [
+"environmental",
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause requires substantiation and qualifiers for generic environmental terms."
+},
+"75dae499929c284b": {
+"claim_types": [
+"environmental",
+"disclosure",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Clause mandates adequate disclosure of environmental claims and balanced data."
+},
+"865340b0e224d6e2": {
+"claim_types": [
+"environmental",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Specifies conditions for aspirational environmental claims, requiring truthfulness and substantiation."
+},
+"b65f8b9db9d7f38c": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "States that environmental claims are governed by other laws, emphasizing compliance and truthfulness."
+},
+"b291ede5a8068a7e": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Provides final decision authority, underscoring the need for truthful interpretation."
+},
+"9add87d32404805b": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Affirms that the Act applies to guideline violations, reinforcing truthfulness."
+},
+"7489e61ce1b8b7fa": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Introduces guidance for environmental claims, emphasizing truthfulness."
+},
+"4cf26af1b7aa9898": {
+"claim_types": [
+"environmental",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Mandates truthful, verifiable environmental claims."
+},
+"60bd124887a8b694": {
+"claim_types": [
+"environmental",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Requires clarity and unambiguity in environmental claims."
+},
+"34afcc082e744b7f": {
+"claim_types": [
+"environmental",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Calls for fair, meaningful comparisons in environmental claims."
+},
+"5bc4abca7a3ba8b5": {
+"claim_types": [
+"environmental",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Demands absolute, relevant environmental claims with full disclosure."
+},
+"4eed5fd63e6c6f26": {
+"claim_types": [
+"environmental",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Prohibits misleading imagery implying environmental friendliness without substantive claims."
+},
+"5015bd6a97df8291": {
+"claim_types": [
+"environmental",
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "The clause addresses misleading environmental endorsement claims, requiring truthfulness and disclosure."
+},
+"936e4cf12cc18136": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "This clause contains only definitions and administrative provisions."
+},
+"ff5959e430b16302": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Health claim requiring physiological role and composition substantiation."
+},
+"54913f7ebb25701a": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Claims about healthy diet patterns must meet nutrient criteria."
+},
+"ae629ad6fefd6c8c": {
+"claim_types": [
+"appearance",
+"scientific"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Conditional claims using terms like natural, fresh, pure require schedule V conditions."
+},
+"7155be726a23852f": {
+"claim_types": [
+"disclosure",
+"puffery"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Prohibited disease treatment claims and implied medical endorsement."
+},
+"109cdcf7b34c0222": {
+"claim_types": [
+"scientific",
+"disclosure"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Procedure for approval requires validated method and scientific substantiation."
+},
+"ea2d22398b54a360": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Redressal of non‑compliance is administrative."
+},
+"7c96a67545882c75": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Procedure for redressal is administrative."
+},
+"8837515a80044257": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Corrective advertisement procedure is administrative."
+},
+"b46721bb285ef72b": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Nutrition claim about nutrient benefits requires conditions."
+},
+"e844cc3a64cba9b9": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Energy/calorie claim limits are nutrition health claims."
+},
+"34d51e91e78631c9": {
+"claim_types": [
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Defines limits for fat content in food"
+},
+"ce37a1cec4252e66": {
+"claim_types": [
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Specifies cholesterol and saturated fat limits for food"
+},
+"3f15ead086de5353": {
+"claim_types": [
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Sets limits for saturated fat and saturated fatty acids in food"
+},
+"36e335c87c54b181": {
+"claim_types": [
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Defines criteria for high unsaturated fat claim"
+},
+"60eeb0511baf2dad": {
+"claim_types": [
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Limits trans fat content for food"
+},
+"1a4c3c7f32fd87a4": {
+"claim_types": [
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Criteria for high mono‑unsaturated fat claim"
+},
+"61d8ed878b0e77e6": {
+"claim_types": [
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Criteria for high poly‑unsaturated fat claim"
+},
+"85b0a77ba0c51116": {
+"claim_types": [
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Defines omega‑3 fatty acid content for source and high claims"
+},
+"fa339b3c806d2bb2": {
+"claim_types": [
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Limits sugars content for low and free claims"
+},
+"f97239a7924330ca": {
+"claim_types": [
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Defines protein source and high protein claims based on RDA"
+},
+"6bf52316bb543b31": {
+"claim_types": [
+"nutrition_health",
+"scientific"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Specifies quantitative nutrient content claims for vitamins/minerals."
+},
+"fec8d84250fad111": {
+"claim_types": [
+"nutrition_health",
+"scientific"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Defines quantitative sodium content limits for low/very low/sodium free claims."
+},
+"84450931335e6d6d": {
+"claim_types": [
+"nutrition_health",
+"scientific"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Sets quantitative dietary fibre content thresholds for source/high claims."
+},
+"01c53c45e62c84ac": {
+"claim_types": [
+"nutrition_health",
+"scientific"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Requires minimum probiotic CFU count for source claim."
+},
+"48778bbbde8c9edf": {
+"claim_types": [
+"nutrition_health",
+"scientific"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Defines glycemic index thresholds for low GI claim."
+},
+"3b66a8bc803f1474": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Provides permissible synonyms for claims, ensuring truthful representation."
+},
+"cb459b336c4f2c97": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Introductory note on health claim structure, ensuring compliance."
+},
+"03e0eb7042962710": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Mandates health claims be part of a balanced diet."
+},
+"55b6a10c77e798a5": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Specifies conditions for health claim validity."
+},
+"e9c9a903e3342604": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Requires RDA statements for vitamin/mineral health claims."
+},
+"bf37bad71f262c82": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Health claim about calcium and vitamin D effect on osteoporosis"
+},
+"e850f6bb25640bc1": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Health claims for fortified foods (vitamin A, D) with specific benefits"
+},
+"9b66494a5fbed744": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Health claim about vitamin B12 function"
+},
+"5364b43d0fa26a53": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Health claims for folate, iron with specific benefits"
+},
+"6c8f994249195d11": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Health claims for iodine and zinc with specific benefits"
+},
+"a3953e254ec944e3": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Health claim for thiamine with specific benefit"
+},
+"6fa4f56ae20b9f36": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Health claims for riboflavin and niacin with specific benefits"
+},
+"9ad333c5bfe0147e": {
+"claim_types": [
+"efficacy",
+"scientific",
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Health claim for pyridoxine with specific benefit"
+},
+"5f2d4accb0fe6529": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Schedule listing words/phrases; not a claim"
+},
+"e02b0314dda5a3e7": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Definition of 'natural'; not a claim"
+},
+"dca339752b34bcae": {
+"claim_types": [
+"appearance"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "The clause governs the use of the term \"fresh\" which is an appearance claim about the product's freshness."
+},
+"8280ac9e43e394f7": {
+"claim_types": [
+"natural_purity"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "The clause regulates the use of the term \"pure\" which is a natural purity claim."
+},
+"75491c7600d72e12": {
+"claim_types": [
+"appearance"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "The clause allows use of terms like \"authentic, genuine, real\" which are appearance/quality claims."
+},
+"a40084978fa84da6": {
+"claim_types": [
+"appearance"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "The clause defines \"traditional\" as a claim about the product's recipe or processing method."
+},
+"ea482e6215be4ea5": {
+"claim_types": [
+"appearance"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "The clause governs the use of \"original\" which is an appearance/heritage claim."
+},
+"c58c9cd1c022d012": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause – publication and invitation for objections."
+},
+"4334aba5cbd352c8": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause – short title and commencement."
+},
+"8efc95ad739af3d6": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause – definitions."
+},
+"02dc62ef1a8c1f7f": {
+"claim_types": [],
+"categories": [
+"all"
+],
+"surfaces": [
+"all"
+],
+"administrative": true,
+"rationale": "Administrative clause – general principles for operators."
+},
+"5de426bb1852d91d": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "States that claims must be truthful, unambiguous, not misleading – a general truthfulness requirement for food claims."
+},
+"e8aa86fc5a53880d": {
+"claim_types": [
+"nutrition_health"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Defines nutrition claims (nutrient content or comparative) – a nutrition/health claim type."
+},
+"760106e151e7ec81": {
+"claim_types": [
+"general_truthfulness"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "Allows non‑addition claims (sugar, salt, additives) only if conditions met – a truthfulness requirement for specific composition claims."
+}
+}

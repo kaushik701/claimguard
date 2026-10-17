@@ -92,6 +92,7 @@ class LLMClient:
         if not os.getenv(KEY_ENV[self.primary]) and not (self.fallback and os.getenv(KEY_ENV[self.fallback])):
             raise LLMError(f"No API key: set {KEY_ENV[self.primary]} (or {KEY_ENV.get(self.fallback, '')}) in .env")
         self._clients: dict[str, object] = {}
+        self._window: dict[str, list] = {}
 
     # ---- provider plumbing
     def _client(self, provider: str):
@@ -114,11 +115,32 @@ class LLMClient:
             provider, model = self.primary, None
         return provider, model or DEFAULT_MODEL[provider]
 
+    def _pace(self, model: str, prompt: str) -> None:
+        """Stay under the provider's tokens-per-minute limit ([llm] tpm, default 8000 on Groq free tier):
+        sleep until the last 60 s of usage plus this request's estimate fits."""
+        tpm = int(settings()["llm"].get("tpm", 8000))
+        need = len(prompt) // 3 + 1200                     # rough prompt tokens + room for the answer
+        log = self._window.setdefault(model, [])
+        while True:
+            now = time.time()
+            log[:] = [(t, n) for t, n in log if now - t < 60]
+            if not log or sum(n for _, n in log) + need <= tpm * 0.9:
+                return
+            time.sleep(max(1.0, 60 - (now - log[0][0]) + 0.5))
+
     def _call(self, provider: str, model: str, prompt: str) -> str:
+        if provider == "groq":
+            self._pace(model, prompt)
         t0 = time.time()
-        resp = self._client(provider).chat.completions.create(
-            model=model, temperature=0, response_format={"type": "json_object"},
-            messages=[{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}])
+        extra = {"reasoning_effort": "low"} if "gpt-oss" in model else {}
+        try:
+            resp = self._client(provider).chat.completions.create(
+                model=model, temperature=0, response_format={"type": "json_object"},
+                messages=[{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], **extra)
+        except Exception as e:
+            if "json_validate_failed" in str(e):  # provider-side JSON check failed: same as invalid output
+                return "<<provider rejected the JSON>>"
+            raise
         ms = int((time.time() - t0) * 1000)
         u = resp.usage
         tin, tout = (u.prompt_tokens or 0, u.completion_tokens or 0) if u else (0, 0)
@@ -127,6 +149,7 @@ class LLMClient:
         self.usage.tokens_in += tin
         self.usage.tokens_out += tout
         self.calls.append({"model": model, "provider": provider, "ms": ms, "tokens_in": tin, "tokens_out": tout})
+        self._window.setdefault(model, []).append((time.time(), tin + tout))
         return resp.choices[0].message.content or ""
 
     def _complete(self, step: str | None, prompt: str) -> str:

@@ -5,7 +5,7 @@ import pytest
 from claimguard.llm.prompts import DIR, placeholders, render
 
 EXPECTED = {"clause_tagger", "vision_reader", "claim_extractor", "query_expander", "reranker", "judge", "verifier",
-            "rewriter", "copilot_answer", "question_rewriter", "weekly_learning_report"}
+            "rewriter", "copilot_answer", "question_rewriter", "weekly_learning_report", "clause_tagger_batch"}
 
 
 def test_all_prompts_present():

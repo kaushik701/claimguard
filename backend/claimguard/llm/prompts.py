@@ -8,7 +8,7 @@ from pathlib import Path
 
 DIR = Path(__file__).parent / "prompts"
 _PH = re.compile(r"\{([a-z_]+)\}")
-UNTRUSTED = {"text", "clause_text", "claim", "question"}
+UNTRUSTED = {"text", "clause_text", "claim", "question", "clauses_block"}
 
 
 @lru_cache(maxsize=None)

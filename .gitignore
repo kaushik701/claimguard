@@ -12,3 +12,4 @@ knowledge/build/ocr_cache/
 frontend/node_modules/
 frontend/dist/
 docs/screenshots/**/*.tmp
+backend/pyrefly.toml

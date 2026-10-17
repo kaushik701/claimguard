@@ -1,3 +1,39 @@
-# Switch off sections that are not about product claims (applied after tagging). Example:
-# disable_sections: ["Advertising of Virtual Digital Assets", "Advertisements Depicting Automotive Vehicles"]
-disable_sections: []
+# Which guideline sections apply to which listings (applied after tagging; survives rebuilds).
+# Each rule matches (case-insensitive) the document title or the clause's section path; later rules win.
+#   use: false          section ignored (not about product claims)
+#   categories / surfaces / claim_types: replace the clause's tags with these
+# Document-level scope (FSSAI = food, influencer guidelines = social, green guidelines = environmental) is in
+# knowledge/sources.yaml.
+rules:
+  - match: foods & beverages
+    categories: [food]
+  - match: skin lightening
+    categories: [beauty, personal]
+    claim_types: [appearance]
+  - match: influencer advertising
+    surfaces: [social_post]
+  - match: awards/rankings
+    claim_types: [awards_rankings, leadership]
+  - match: celebrities
+    claim_types: [celebrity_endorsement, scientific]
+  - match: large pack comparison
+    claim_types: [comparative, pricing_offer]
+  - match: new/improved
+    claim_types: [comparative]
+  - match: environmental/green
+    claim_types: [environmental, natural_purity]
+  - match: guidelines for disclaimers
+    claim_types: [general_truthfulness]
+  # not about product claims: switched off (set use: true to bring one back)
+  - {match: automotive vehicles, use: false}
+  - {match: educational institutions, use: false}
+  - {match: virtual digital assets, use: false}
+  - {match: charitable causes, use: false}
+  - {match: brand extension, use: false}
+  - {match: deceptive design patterns, use: false}
+  - {match: synthetically generated content, use: false}
+  - {match: pledge, use: false}
+  - {match: recognitions, use: false}
+  - {match: national highways authority, use: false}
+  - {match: regulatory stakeholders, use: false}
+  - {match: "cin:", use: false}
