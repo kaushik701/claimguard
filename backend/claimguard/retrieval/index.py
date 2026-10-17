@@ -37,7 +37,8 @@ def chunk(c: dict) -> list[dict]:
 @lru_cache(maxsize=1)
 def embedder():
     from fastembed import TextEmbedding
-    return TextEmbedding(settings()["retrieval"]["embedding_model"])
+    import os
+    return TextEmbedding(settings()["retrieval"]["embedding_model"], cache_dir=os.getenv("FASTEMBED_CACHE_PATH"))
 
 
 def embed(texts: list[str]) -> list[list[float]]:

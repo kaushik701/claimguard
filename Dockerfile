@@ -10,6 +10,7 @@ RUN npm run build
 FROM python:3.12-slim
 RUN apt-get update && apt-get install -y --no-install-recommends libgl1 libglib2.0-0 && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
+ENV HOME=/app FASTEMBED_CACHE_PATH=/app/.fastembed PYTHONUNBUFFERED=1
 COPY backend/pyproject.toml backend/
 RUN pip install --no-cache-dir -e backend/ || true
 COPY . .
@@ -18,5 +19,7 @@ COPY --from=web /app/frontend/dist frontend/dist
 # Knowledge base is built into the image (OCR + tagging cache are committed; no key needed for cached tags)
 RUN cd backend && python -m claimguard.kb build || true
 ENV CLAIMGUARD_PUBLIC_DEMO=1
+# Hugging Face runs the container as user 1000: make app data writable
+RUN mkdir -p data && chmod -R a+rwX /app
 EXPOSE 8000
 CMD ["sh", "-c", "cd backend && uvicorn claimguard.api.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
