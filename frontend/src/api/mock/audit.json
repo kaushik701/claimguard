@@ -1,0 +1,11 @@
+{"id": 1, "created_at": "2026-10-17T10:00:00", "status": "done", "error": null, "input_type": "text", "surface": "ecommerce",
+ "category": "home", "brand": "Brightwash (fictional)", "paid": false, "text": "Removes 100% of tough stains in one wash.",
+ "image_url": null, "ocr_boxes": [], "steps": [{"name": "Reading", "status": "done", "ms": 1}],
+ "claims": [{"id": "1", "text": "Removes 100% of tough stains in one wash.", "start": 0, "end": 41, "claim_type": "efficacy", "source": "both"}],
+ "flags": [{"id": 1, "claim": {"id": "1", "text": "Removes 100% of tough stains in one wash.", "start": 0, "end": 41, "claim_type": "efficacy", "source": "both"},
+   "risk": "high", "reason": "Mock: absolute efficacy claim with no stated test basis.", "rewrite": "<fix>", "confidence": 0.8,
+   "verifier_note": null, "status": "open", "reviewer_risk": null, "reviewer_note": null,
+   "citations": [{"clause_id": "MOCK-1", "doc_id": "ASCI", "doc_title": "Mock document", "section_path": "Mock", "number": "1",
+     "page": 1, "quote": "Mock quote used only when VITE_USE_MOCKS=true.", "source": "text"}]}],
+ "not_covered": [], "low_risk": [], "dropped": [], "fallback_used": false, "fallback_reason": null,
+ "stats": {"claims": 1, "high": 1, "medium": 0, "not_covered": 0, "dropped": 0}, "latency_ms": 0, "tokens_in": 0, "tokens_out": 0, "cost_usd": 0}

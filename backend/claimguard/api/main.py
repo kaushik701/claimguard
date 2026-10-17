@@ -464,3 +464,19 @@ h1{{color:#1F3A93}}.flag{{border:1px solid #DADDE3;border-left:6px solid #D92D20
 <p class="fine">Risk indicators for reviewers, not legal advice. Not affiliated with or endorsed by any brand owner.</p>
 <p>Claims {a['stats']['claims']} · High {a['stats']['high']} · Medium {a['stats']['medium']} · Not covered {a['stats']['not_covered']}</p>
 <h2>Input</h2><pre>{e(a['text'])}</pre><h2>Flags</h2>{flags or '<p>No medium or high-risk claims.</p>'}</body></html>"""
+
+
+DIST = ROOT / "frontend" / "dist"
+
+
+@app.get("/{full_path:path}", include_in_schema=False)
+def spa(full_path: str):
+    """Serve the built React app (frontend/dist) on the same port; unknown paths get index.html."""
+    if full_path.startswith("api/"):
+        fail(404, "not_found", "Unknown API route.")
+    f = (DIST / full_path).resolve()
+    if full_path and f.is_file() and DIST.resolve() in f.parents:
+        return FileResponse(f)
+    if (DIST / "index.html").exists():
+        return FileResponse(DIST / "index.html")
+    fail(404, "no_frontend", "Frontend not built: run `npm run build` in frontend/.")
