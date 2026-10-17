@@ -3134,5 +3134,31 @@
 ],
 "administrative": false,
 "rationale": "Allows non‑addition claims (sugar, salt, additives) only if conditions met – a truthfulness requirement for specific composition claims."
+},
+"6c3c725213880f2a": {
+"claim_types": [
+"disclosure"
+],
+"categories": [
+"all"
+],
+"surfaces": [
+"social_post"
+],
+"administrative": false,
+"rationale": "The clause mandates disclosure of influencer material connection and advertiser substantiation, a disclosure requirement."
+},
+"bea00cdf07185fd8": {
+"claim_types": [
+"scientific"
+],
+"categories": [
+"food"
+],
+"surfaces": [
+"all"
+],
+"administrative": false,
+"rationale": "The clause specifies conditions for a scientific claim about non-addition of salt in food."
 }
 }

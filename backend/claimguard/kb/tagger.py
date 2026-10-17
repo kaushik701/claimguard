@@ -90,8 +90,11 @@ def apply_tags(clauses: list[dict], sources: list[dict]) -> None:
         kw = keyword_tags(f"{c['section_path']} {c['text']}")
         if c["hash"] in cache:
             t = cache[c["hash"]]
-            c.update(claim_types=list(t["claim_types"]), categories=list(t["categories"]),
-                     surfaces=list(t["surfaces"]), administrative=t["administrative"], tag_source="llm",
+            # Union with keyword tags (recall matters; the reranker filters). The LLM's "administrative" verdict
+            # only switches a clause off when the keyword rules find nothing claim-related in it either
+            # (measured: gpt-oss-20b marked ASCI Chapter IV comparison clauses administrative).
+            c.update(claim_types=sorted(set(t["claim_types"]) | set(kw)), categories=list(t["categories"]),
+                     surfaces=list(t["surfaces"]), administrative=t["administrative"] and not kw, tag_source="llm",
                      tag_check=sorted(set(t["claim_types"]) - set(kw) - {"general_truthfulness"}))
         else:
             c.update(claim_types=kw, categories=["all"], surfaces=["all"], administrative=False,

@@ -47,6 +47,21 @@
 - FSSAI p.17: Hindi in a legacy font (cannot be cited)
 - FSSAI p.18: Hindi in a legacy font (cannot be cited)
 
+## Clauses
+
+| Document | Clauses | Enabled | From OCR | Low OCR conf (<0.80) | Untagged | Duplicates |
+|---|---|---|---|---|---|---|
+| ASCI | 161 | 111 | 0 | 0 | 0 | 0 |
+| ASCI-INF | 10 | 10 | 2 | 0 | 0 | 1 |
+| ASCI-GREEN | 13 | 13 | 0 | 0 | 0 | 13 |
+| CCPA-GW | 17 | 17 | 17 | 0 | 0 | 0 |
+| FSSAI | 54 | 53 | 0 | 0 | 1 | 0 |
+
+Tags from: {'llm': 155, 'scope': 100}. LLM tags without keyword support (check): 39.
+Spot checks: 12/12 found verbatim.
+
+Indexed 235 chunks (BM25 + bge-small vectors).
+
 ## Gates
 
 - all passed

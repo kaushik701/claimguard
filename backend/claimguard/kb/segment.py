@@ -136,8 +136,13 @@ def segment_doc(src: dict, pages: list[dict]) -> list[dict]:
 
 def norm(s: str) -> str:
     """Whitespace/quote/case-normalised text for verbatim checks."""
-    s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"').replace("–", "-").replace("—", "-")
+    s = s.translate(_NORM_MAP)
     return re.sub(r"\s+", " ", s).strip().lower()
+
+
+# quotes, dashes and hyphen variants (models often emit U+2011 non-breaking hyphens), odd spaces
+_NORM_MAP = str.maketrans({"’": "'", "‘": "'", "“": '"', "”": '"', "–": "-", "—": "-", "‐": "-", "‑": "-",
+                           "‒": "-", "−": "-", " ": " ", " ": " ", " ": " "})
 
 
 def dedupe(clauses: list[dict]) -> None:
