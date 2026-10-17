@@ -1,0 +1,41 @@
+# The five documents ClaimGuard may cite. Page facts measured on 17 Oct 2026 (see docs/KNOWLEDGE_BASE.md).
+- id: ASCI
+  file: ASCI_Codes_Guidelines_Book.pdf
+  regulator: ASCI
+  title: ASCI Code for Self-Regulation in Advertising and Guidelines (book)
+  source_url: https://www.ascionline.in/the-asci-code/
+  pages: 82
+  image_only_pages: [14, 17, 26, 27, 80]
+  toc_page: 3
+- id: ASCI-INF
+  file: ASCI_Influencer_Guidelines.pdf
+  regulator: ASCI
+  title: ASCI Guidelines for Influencer Advertising in Digital Media
+  source_url: https://www.ascionline.in/guidelines/
+  pages: 18
+  image_only_pages: [4, 9, 18]
+  scope: {surfaces: [social_post]}
+- id: ASCI-GREEN
+  file: ASCI_Green_Claims_Guidelines.pdf
+  regulator: ASCI
+  title: ASCI Guidelines for Advertisements Making Environmental/Green Claims
+  source_url: https://www.ascionline.in/guidelines/
+  pages: 3
+  scope: {claim_types: [environmental, natural_purity]}
+- id: CCPA-GW
+  file: CCPA_Greenwashing_Guidelines_2024.pdf
+  regulator: CCPA
+  title: Guidelines for Prevention and Regulation of Greenwashing or Misleading Environmental Claims, 2024
+  source_url: https://consumeraffairs.nic.in/
+  pages: 6
+  scanned: true          # every page needs OCR
+  scope: {claim_types: [environmental, natural_purity]}
+- id: FSSAI
+  file: FSSAI_Advertising_Claims_Regulations_2018.pdf
+  regulator: FSSAI
+  title: Food Safety and Standards (Advertising and Claims) Regulations, 2018 (Gazette, 27 Nov 2018)
+  source_url: https://www.fssai.gov.in/
+  pages: 32
+  english_pages: [1, 20-32]
+  legacy_hindi_pages: [2-19]   # legacy font extracts as Latin gibberish; exclude from citation
+  scope: {categories: [food]}

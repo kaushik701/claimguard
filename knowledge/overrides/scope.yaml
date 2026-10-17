@@ -1,0 +1,3 @@
+# Switch off sections that are not about product claims (applied after tagging). Example:
+# disable_sections: ["Advertising of Virtual Digital Assets", "Advertisements Depicting Automotive Vehicles"]
+disable_sections: []

@@ -1,0 +1,30 @@
+{"id": "H-01", "text": "Wipes out 99.99% of viruses and bacteria from floors.", "context": "", "claim_type": "efficacy", "risk": "high", "category": "home"}
+{"id": "H-02", "text": "Long-lasting freshness for 48 hrs.", "context": "", "claim_type": "efficacy", "risk": "high", "category": "personal"}
+{"id": "H-03", "text": "Gentle on hands.", "context": "", "claim_type": "none", "risk": "none", "category": "home"}
+{"id": "H-04", "text": "Superior cleaning compared with leading detergent bars.", "context": "", "claim_type": "comparative", "risk": "high", "category": "home"}
+{"id": "H-05", "text": "Twice as effective as regular handwash*.", "context": "*Lab test vs. non-antibacterial handwash, Independent Lab, 2025.", "claim_type": "comparative", "risk": "low", "category": "personal"}
+{"id": "H-06", "text": "Trusted by millions of Indian families.", "context": "", "claim_type": "leadership", "risk": "medium", "category": "home"}
+{"id": "H-07", "text": "World's largest selling tea brand.", "context": "", "claim_type": "leadership", "risk": "high", "category": "food"}
+{"id": "H-08", "text": "See the difference in a week.", "context": "", "claim_type": "time_bound", "risk": "high", "category": "beauty"}
+{"id": "H-09", "text": "Visible brightening within 14 days*.", "context": "*Consumer perception study, n=150, 2024. Results may vary.", "claim_type": "appearance", "risk": "low", "category": "beauty"}
+{"id": "H-10", "text": "Look fairer, feel confident at your wedding.", "context": "", "claim_type": "appearance", "risk": "high", "category": "beauty"}
+{"id": "H-11", "text": "Approved by the Indian Dental Association.", "context": "", "claim_type": "scientific", "risk": "high", "category": "personal"}
+{"id": "H-12", "text": "Tested by experts.", "context": "", "claim_type": "scientific", "risk": "medium", "category": "beauty"}
+{"id": "H-13", "text": "Good for the planet, good for you.", "context": "", "claim_type": "environmental", "risk": "high", "category": "home"}
+{"id": "H-14", "text": "Made with 30% post-consumer recycled plastic*.", "context": "*Applies to bottle only, excluding cap; certified by an accredited body, see QR code.", "claim_type": "environmental", "risk": "low", "category": "home"}
+{"id": "H-15", "text": "Zero-waste formula.", "context": "", "claim_type": "environmental", "risk": "high", "category": "home"}
+{"id": "H-16", "text": "Nature-pure, no harsh chemicals.", "context": "", "claim_type": "natural_purity", "risk": "high", "category": "beauty"}
+{"id": "H-17", "text": "Infused with aloe vera extract.", "context": "", "claim_type": "natural_purity", "risk": "low", "category": "personal"}
+{"id": "H-18", "text": "Farm fresh flavour.", "context": "", "claim_type": "natural_purity", "risk": "medium", "category": "food"}
+{"id": "H-19", "text": "Helps build strong bones and muscles.", "context": "", "claim_type": "nutrition_health", "risk": "high", "category": "food"}
+{"id": "H-20", "text": "Rich in antioxidants.", "context": "", "claim_type": "nutrition_health", "risk": "medium", "category": "food"}
+{"id": "H-21", "text": "The ideal drink for growing kids' brain development.", "context": "", "claim_type": "nutrition_health", "risk": "high", "category": "food"}
+{"id": "H-22", "text": "Delicious, creamy taste you'll love.", "context": "", "claim_type": "puffery", "risk": "low", "category": "food"}
+{"id": "H-23", "text": "Shop now and save 20%.", "context": "", "claim_type": "none", "risk": "none", "category": "home"}
+{"id": "H-24", "text": "Controls dandruff from the very first use.", "context": "", "claim_type": "time_bound", "risk": "high", "category": "beauty"}
+{"id": "H-25", "text": "Removes 3x more oil than a regular face wash.", "context": "", "claim_type": "comparative", "risk": "high", "category": "beauty"}
+{"id": "H-26", "text": "Kills 99.9% germs*.", "context": "", "claim_type": "efficacy", "risk": "high", "category": "personal"}
+{"id": "H-27", "text": "India's No. 1 brand of ketchup (Kantar, value share, CY2025).", "context": "", "claim_type": "leadership", "risk": "low", "category": "food"}
+{"id": "H-28", "text": "Non-toxic, safe for septic tanks.", "context": "", "claim_type": "environmental", "risk": "high", "category": "home"}
+{"id": "H-29", "text": "Contains calcium which helps maintain normal bones*.", "context": "*FSSAI-permitted claim.", "claim_type": "nutrition_health", "risk": "low", "category": "food"}
+{"id": "H-30", "text": "Dermat recommended for sensitive skin.", "context": "", "claim_type": "scientific", "risk": "high", "category": "beauty"}

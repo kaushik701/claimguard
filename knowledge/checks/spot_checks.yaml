@@ -1,0 +1,50 @@
+note: Sentences that MUST be found verbatim in the clause store after `kb build`. Kaushik adds 10 more by hand on Day 2 (incl. 2 from the scanned CCPA PDF).
+checks:
+- doc: ASCI
+  page: 20
+  text: Such occasional and unintentional lapses may not invalidate the advertisement in terms of this Code.
+  proposed_by: kit (auto, verify against PDF)
+- doc: ASCI
+  page: 12
+  text: Both the general public and an advertiser’s competitors have an equal right to expect the content of advertisements to be presented fairly, intelligibly and responsibly.
+  proposed_by: kit (auto, verify against PDF)
+- doc: ASCI
+  page: 16
+  text: Hence, no practice should be permitted which tends to impair this confidence.
+  proposed_by: kit (auto, verify against PDF)
+- doc: ASCI-INF
+  page: 7
+  text: A material connection is any connection between an advertiser and influencer that may affect the weight or credibility of the representation made by the influencer.
+  proposed_by: kit (auto, verify against PDF)
+- doc: ASCI-GREEN
+  page: 1
+  text: As a result, there has been a proliferation of products, services and businesses which claim to meet that demand.
+  proposed_by: kit (auto, verify against PDF)
+- doc: ASCI-GREEN
+  page: 3
+  text: For carbon offset claims where the offset does not occur within the next two years, advertisers should clearly and prominently disclose the same.
+  proposed_by: kit (auto, verify against PDF)
+- doc: ASCI-GREEN
+  page: 2
+  text: The advertiser should ensure that the certifying agency is nationally/internationally accredited by a certifying authority for eg.
+  proposed_by: kit (auto, verify against PDF)
+- doc: FSSAI
+  page: 28
+  text: Sugars Low The product contains not more than 5 g of sugars per 100 g for solids or 2.5 g of sugars per 100 ml for liquids.
+  proposed_by: kit (auto, verify against PDF)
+- doc: FSSAI
+  page: 27
+  text: Free Not more than 0.5 g of fat per 100 g for solids or 100 ml for liquids.
+  proposed_by: kit (auto, verify against PDF)
+- doc: FSSAI
+  page: 28
+  text: Sodium Low Product contains not more than 0.12 g of sodium per 100 g for solids or 100 ml for liquids.
+  proposed_by: kit (auto, verify against PDF)
+- doc: FSSAI
+  page: 27
+  text: Fat Low Not more than 3 g of fat per 100 g for solids or 1.5 g of fat per 100ml for liquids.
+  proposed_by: kit (auto, verify against PDF)
+- doc: FSSAI
+  page: 27
+  text: Energy/Calorie Low Not more than 40 kcal# per 100 g for solids 20 kcal per 100 ml for liquids.
+  proposed_by: kit (auto, verify against PDF)

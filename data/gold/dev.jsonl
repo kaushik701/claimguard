@@ -1,0 +1,89 @@
+{"id": "E01", "text": "Kills 99.9% germs.", "context": "", "claim_type": "efficacy", "risk": "high", "category": "personal"}
+{"id": "E02", "text": "Kills 99.9% of germs*.", "context": "*In lab tests against common household bacteria, 60-second contact time, Internal Study 2024.", "claim_type": "efficacy", "risk": "low", "category": "personal"}
+{"id": "E03", "text": "Removes 100% of tough stains in one wash.", "context": "", "claim_type": "efficacy", "risk": "high", "category": "home"}
+{"id": "E04", "text": "Fights germs every day.", "context": "", "claim_type": "efficacy", "risk": "low", "category": "personal"}
+{"id": "E05", "text": "Gives 2x protection from cavity-causing germs.", "context": "", "claim_type": "efficacy", "risk": "high", "category": "personal"}
+{"id": "E06", "text": "Protects against 100 illness-causing germs.", "context": "", "claim_type": "efficacy", "risk": "high", "category": "personal"}
+{"id": "E07", "text": "Removes tough stains.", "context": "", "claim_type": "efficacy", "risk": "low", "category": "home"}
+{"id": "E08", "text": "Kills 99.9% germs as per lab test vs. plain water; results may vary.", "context": "", "claim_type": "efficacy", "risk": "medium", "category": "home"}
+{"id": "E09", "text": "Complete protection against all germs.", "context": "", "claim_type": "efficacy", "risk": "high", "category": "home"}
+{"id": "E10", "text": "SPF 50 PA++++ broad spectrum protection.", "context": "", "claim_type": "efficacy", "risk": "low", "category": "beauty"}
+{"id": "E11", "text": "Up to 72-hour odour protection.", "context": "", "claim_type": "efficacy", "risk": "high", "category": "personal"}
+{"id": "E12", "text": "Germ protection that lasts up to 12 hours*.", "context": "", "claim_type": "efficacy", "risk": "high", "category": "personal"}
+{"id": "E13", "text": "Kills 99% of bacteria on kitchen surfaces*.", "context": "*Based on lab test on E-coli, results may vary.", "claim_type": "efficacy", "risk": "medium", "category": "home"}
+{"id": "E14", "text": "Removes 99% of plaque.", "context": "", "claim_type": "efficacy", "risk": "high", "category": "personal"}
+{"id": "C01", "text": "Whiter clothes than ordinary detergent powders.", "context": "", "claim_type": "comparative", "risk": "high", "category": "home"}
+{"id": "C02", "text": "2x faster stain removal vs. Brand X.", "context": "", "claim_type": "comparative", "risk": "high", "category": "home"}
+{"id": "C03", "text": "10x more germ protection than ordinary soaps.", "context": "", "claim_type": "comparative", "risk": "high", "category": "personal"}
+{"id": "C04", "text": "Better than other leading brands.", "context": "", "claim_type": "comparative", "risk": "high", "category": "home"}
+{"id": "C05", "text": "Compared to our previous formula, now with 20% more fragrance beads (based on internal formulation data, 2025).", "context": "", "claim_type": "comparative", "risk": "low", "category": "home"}
+{"id": "C06", "text": "Unlike other sunscreens that lie about SPF, ours is tested.", "context": "", "claim_type": "comparative", "risk": "high", "category": "beauty"}
+{"id": "C07", "text": "Cleans 3 times more utensils than ordinary bars*.", "context": "*Based on lab test vs. ordinary dishwash bar.", "claim_type": "comparative", "risk": "medium", "category": "home"}
+{"id": "C08", "text": "Lathers better than other soaps.", "context": "", "claim_type": "comparative", "risk": "high", "category": "personal"}
+{"id": "C09", "text": "Twice the shine of ordinary toothpastes*.", "context": "*In lab tests vs. a standard fluoride toothpaste, Independent Lab, 2025.", "claim_type": "comparative", "risk": "low", "category": "personal"}
+{"id": "C10", "text": "Softer hair compared to regular shampoo.", "context": "", "claim_type": "comparative", "risk": "high", "category": "beauty"}
+{"id": "L01", "text": "India's No.1 detergent brand.", "context": "", "claim_type": "leadership", "risk": "high", "category": "home"}
+{"id": "L02", "text": "India's most trusted soap.", "context": "", "claim_type": "leadership", "risk": "high", "category": "personal"}
+{"id": "L03", "text": "No.1 dishwash bar in India (Source: Nielsen retail value share, MAT Dec 2025).", "context": "", "claim_type": "leadership", "risk": "low", "category": "home"}
+{"id": "L04", "text": "The leading brand recommended by mothers.", "context": "", "claim_type": "leadership", "risk": "high", "category": "personal"}
+{"id": "L05", "text": "#1 selling shampoo*.", "context": "", "claim_type": "leadership", "risk": "high", "category": "beauty"}
+{"id": "L06", "text": "Best-selling hair oil on our store this month.", "context": "", "claim_type": "leadership", "risk": "medium", "category": "beauty"}
+{"id": "L07", "text": "India's No.1 dermatologist recommended brand.", "context": "", "claim_type": "leadership", "risk": "high", "category": "beauty"}
+{"id": "L08", "text": "Most preferred tea brand in South India*.", "context": "*According to a consumer survey.", "claim_type": "leadership", "risk": "medium", "category": "food"}
+{"id": "T01", "text": "Visibly healthier hair in 7 days.", "context": "", "claim_type": "time_bound", "risk": "high", "category": "beauty"}
+{"id": "T02", "text": "Stops dandruff in 3 washes*.", "context": "*Clinical study on 120 participants, 2024.", "claim_type": "time_bound", "risk": "low", "category": "beauty"}
+{"id": "T03", "text": "Instant relief from sensitivity.", "context": "", "claim_type": "time_bound", "risk": "high", "category": "personal"}
+{"id": "T04", "text": "Results in 4 weeks when used as directed (results may vary; clinical study, n=60, 2023).", "context": "", "claim_type": "time_bound", "risk": "low", "category": "beauty"}
+{"id": "T05", "text": "Smoother hair after 1 wash.", "context": "", "claim_type": "time_bound", "risk": "high", "category": "beauty"}
+{"id": "T06", "text": "Visible results in 14 days*.", "context": "*In a consumer study.", "claim_type": "time_bound", "risk": "medium", "category": "beauty"}
+{"id": "A01", "text": "Fairer skin in just 7 days.", "context": "", "claim_type": "appearance", "risk": "high", "category": "beauty"}
+{"id": "A02", "text": "Get lighter, brighter skin and land your dream job.", "context": "", "claim_type": "appearance", "risk": "high", "category": "beauty"}
+{"id": "A03", "text": "Reduces the appearance of dark spots*.", "context": "*In a 4-week consumer study on 80 women, 2024.", "claim_type": "appearance", "risk": "low", "category": "beauty"}
+{"id": "A04", "text": "Whitens teeth by 2 shades.", "context": "", "claim_type": "appearance", "risk": "high", "category": "personal"}
+{"id": "A05", "text": "Even-toned, glowing skin.", "context": "", "claim_type": "appearance", "risk": "medium", "category": "beauty"}
+{"id": "A06", "text": "Lightens underarm darkness.", "context": "", "claim_type": "appearance", "risk": "high", "category": "personal"}
+{"id": "S01", "text": "Clinically proven to reduce hair fall.", "context": "", "claim_type": "scientific", "risk": "high", "category": "beauty"}
+{"id": "S02", "text": "Dermatologically tested.", "context": "", "claim_type": "scientific", "risk": "medium", "category": "beauty"}
+{"id": "S03", "text": "Recommended by dentists.", "context": "", "claim_type": "scientific", "risk": "high", "category": "personal"}
+{"id": "S04", "text": "Clinically proven* to reduce hair fall.", "context": "*Independent clinical study, Example Labs, 2024.", "claim_type": "scientific", "risk": "low", "category": "beauty"}
+{"id": "S05", "text": "Lab tested formula.", "context": "", "claim_type": "scientific", "risk": "medium", "category": "home"}
+{"id": "S06", "text": "Scientifically proven to strengthen hair.", "context": "", "claim_type": "scientific", "risk": "high", "category": "beauty"}
+{"id": "S07", "text": "Developed with dermatologists.", "context": "", "claim_type": "scientific", "risk": "medium", "category": "beauty"}
+{"id": "V01", "text": "Eco-friendly detergent.", "context": "", "claim_type": "environmental", "risk": "high", "category": "home"}
+{"id": "V02", "text": "Planet friendly packaging.", "context": "", "claim_type": "environmental", "risk": "high", "category": "home"}
+{"id": "V03", "text": "Bottle made with 50% recycled plastic.", "context": "", "claim_type": "environmental", "risk": "medium", "category": "home"}
+{"id": "V04", "text": "100% biodegradable formula.", "context": "", "claim_type": "environmental", "risk": "high", "category": "home"}
+{"id": "V05", "text": "Sustainable choice for your home.", "context": "", "claim_type": "environmental", "risk": "high", "category": "home"}
+{"id": "V06", "text": "Carbon neutral since 2024.", "context": "", "claim_type": "environmental", "risk": "high", "category": "personal"}
+{"id": "V07", "text": "Recyclable pack*.", "context": "*Pack is recyclable where PE film recycling facilities exist; see QR code for details.", "claim_type": "environmental", "risk": "low", "category": "home"}
+{"id": "V08", "text": "Green formula, kind to rivers.", "context": "", "claim_type": "environmental", "risk": "high", "category": "home"}
+{"id": "V09", "text": "Refill pouch uses 70% less plastic than our 1L bottle*.", "context": "*By weight of packaging, internal data 2025; see QR code for details.", "claim_type": "environmental", "risk": "low", "category": "home"}
+{"id": "V10", "text": "Plastic neutral brand.", "context": "", "claim_type": "environmental", "risk": "high", "category": "home"}
+{"id": "N01", "text": "100% natural ingredients.", "context": "", "claim_type": "natural_purity", "risk": "high", "category": "beauty"}
+{"id": "N02", "text": "Chemical-free shampoo.", "context": "", "claim_type": "natural_purity", "risk": "high", "category": "beauty"}
+{"id": "N03", "text": "With the goodness of natural neem.", "context": "", "claim_type": "natural_purity", "risk": "low", "category": "personal"}
+{"id": "N04", "text": "Pure ghee taste.", "context": "", "claim_type": "natural_purity", "risk": "medium", "category": "food"}
+{"id": "N05", "text": "Paraben-free formula.", "context": "", "claim_type": "natural_purity", "risk": "low", "category": "beauty"}
+{"id": "N06", "text": "Made with real tomatoes.", "context": "", "claim_type": "natural_purity", "risk": "medium", "category": "food"}
+{"id": "N07", "text": "Toxin-free and safe for babies.", "context": "", "claim_type": "natural_purity", "risk": "high", "category": "personal"}
+{"id": "N08", "text": "Authentic Assam taste.", "context": "", "claim_type": "natural_purity", "risk": "medium", "category": "food"}
+{"id": "H01", "text": "India's favourite health drink.", "context": "", "claim_type": "nutrition_health", "risk": "high", "category": "food"}
+{"id": "H02", "text": "Makes children taller, stronger and sharper.", "context": "", "claim_type": "nutrition_health", "risk": "high", "category": "food"}
+{"id": "H03", "text": "Boosts immunity naturally.", "context": "", "claim_type": "nutrition_health", "risk": "high", "category": "food"}
+{"id": "H04", "text": "High in protein.", "context": "", "claim_type": "nutrition_health", "risk": "medium", "category": "food"}
+{"id": "H05", "text": "Source of 23 vital nutrients.", "context": "", "claim_type": "nutrition_health", "risk": "medium", "category": "food"}
+{"id": "H06", "text": "Supports immunity*.", "context": "*Contains Vitamin C and Zinc, which contribute to normal immune function.", "claim_type": "nutrition_health", "risk": "low", "category": "food"}
+{"id": "H07", "text": "Sugar-free.", "context": "", "claim_type": "nutrition_health", "risk": "medium", "category": "food"}
+{"id": "H08", "text": "Improves memory and concentration in kids.", "context": "", "claim_type": "nutrition_health", "risk": "high", "category": "food"}
+{"id": "P01", "text": "The best tea for your morning.", "context": "", "claim_type": "puffery", "risk": "low", "category": "food"}
+{"id": "P02", "text": "An amazing fragrance experience.", "context": "", "claim_type": "puffery", "risk": "low", "category": "personal"}
+{"id": "P03", "text": "Unbeatable shine.", "context": "", "claim_type": "puffery", "risk": "low", "category": "home"}
+{"id": "P04", "text": "Perfect for every occasion.", "context": "", "claim_type": "puffery", "risk": "low", "category": "food"}
+{"id": "X01", "text": "Available in 500 g and 1 kg packs.", "context": "", "claim_type": "none", "risk": "none", "category": "home"}
+{"id": "X02", "text": "Store in a cool, dry place.", "context": "", "claim_type": "none", "risk": "none", "category": "food"}
+{"id": "X03", "text": "Pour two capfuls into the washing machine.", "context": "", "claim_type": "none", "risk": "none", "category": "home"}
+{"id": "X04", "text": "Free shipping on orders above Rs 499.", "context": "", "claim_type": "none", "risk": "none", "category": "home"}
+{"id": "X05", "text": "Our customer care team is available on weekdays.", "context": "", "claim_type": "none", "risk": "none", "category": "home"}
+{"id": "X06", "text": "Green tea and lemon variant.", "context": "", "claim_type": "none", "risk": "none", "category": "food"}
+{"id": "X07", "text": "Pack of 3 bars.", "context": "", "claim_type": "none", "risk": "none", "category": "personal"}
+{"id": "X08", "text": "Apply evenly on face and neck.", "context": "", "claim_type": "none", "risk": "none", "category": "beauty"}

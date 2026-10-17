@@ -1,0 +1,37 @@
+[llm]
+primary = "groq"
+fallback = "gemini"
+extract_model = "llama-3.3-70b-versatile"
+judge_model = "llama-3.3-70b-versatile"
+verifier_model = "gemini-2.5-flash"
+vision_model = "gemini-2.5-flash"
+tagger_model = "llama-3.3-70b-versatile"
+copilot_model = "llama-3.3-70b-versatile"
+timeout_s = 60
+max_retries = 2
+
+[retrieval]
+embedding_model = "BAAI/bge-small-en-v1.5"
+bm25_k = 30
+dense_k = 30
+rrf_k = 60
+rerank_top = 15
+final_k = 5
+not_covered_score = 1
+
+[thresholds]
+min_quote_chars = 20
+low_ocr_conf = 0.80
+copilot_min_score = 2
+memory_examples = 3
+calibration_min_labels = 100
+
+[app]
+public_demo = true
+max_input_chars = 20000
+max_upload_mb = 2
+
+[paths]
+pdfs = "knowledge/pdfs"
+build = "knowledge/build"
+db = "data/claimguard.db"

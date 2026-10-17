@@ -1,0 +1,3 @@
+# Human corrections to clause tags. Survive rebuilds. Example:
+# ASCI-1.2: {claim_types: [efficacy, scientific, general_truthfulness]}
+{}
