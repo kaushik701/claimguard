@@ -1,0 +1,15 @@
+# Render blueprint: New > Blueprint > pick this repo. Free plan (512 MB): dense embeddings off.
+services:
+  - type: web
+    name: claimguard
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false            # paste your key in the Render dashboard
+      - key: CLAIMGUARD_PUBLIC_DEMO
+        value: "1"
+      - key: CLAIMGUARD_DENSE
+        value: "0"

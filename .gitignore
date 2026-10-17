@@ -3,12 +3,10 @@ __pycache__/
 .pytest_cache/
 node_modules/
 dist/
-knowledge/build/*
-!knowledge/build/report.md
+knowledge/build/lancedb/
 data/*.db
 reports/*.json
 .claude-flow/
-knowledge/build/ocr_cache/
 frontend/node_modules/
 frontend/dist/
 docs/screenshots/**/*.tmp

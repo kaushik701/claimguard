@@ -16,8 +16,8 @@ RUN pip install --no-cache-dir -e backend/ || true
 COPY . .
 RUN pip install --no-cache-dir -e backend/
 COPY --from=web /app/frontend/dist frontend/dist
-# Knowledge base is built into the image (OCR + tagging cache are committed; no key needed for cached tags)
-RUN cd backend && python -m claimguard.kb build || true
+# The built knowledge base is committed; build it only if missing (needs OCR, ~3 min)
+RUN cd backend && ([ -f ../knowledge/build/clauses.json ] || python -m claimguard.kb build)
 ENV CLAIMGUARD_PUBLIC_DEMO=1
 # Hugging Face runs the container as user 1000: make app data writable
 RUN mkdir -p data && chmod -R a+rwX /app

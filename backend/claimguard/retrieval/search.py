@@ -121,10 +121,13 @@ def rerank(claim: str, claim_type: str, category: str, surface: str, cands: list
 
 
 def retrieve(claim: str, claim_type: str | None, category: str | None = None, surface: str | None = None,
-             llm=None, k: int | None = None, use_filter: bool = True, dense: bool = True,
+             llm=None, k: int | None = None, use_filter: bool = True, dense: bool | None = None,
              use_rerank: bool = True, use_expand: bool = True) -> list[dict]:
     cfg = settings()["retrieval"]
     k = k or cfg["final_k"]
+    if dense is None:  # CLAIMGUARD_DENSE=0 on small hosts (e.g. Render free, 512 MB): BM25 + LLM rerank only
+        import os
+        dense = os.getenv("CLAIMGUARD_DENSE", "1") != "0"
     store = clauses_by_id()
     ok = {cid for cid, c in store.items() if allowed(c, claim_type if use_filter else None, category, surface)}
     if not ok:
