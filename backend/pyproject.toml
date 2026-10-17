@@ -1,0 +1,19 @@
+[project]
+name = "claimguard"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi", "uvicorn", "sqlmodel", "pydantic>=2", "pymupdf>=1.24.3", "rapidocr==3.9.2", "onnxruntime",
+  "fastembed", "lancedb", "rank_bm25", "pyarrow", "pandas", "openai>=1.40", "httpx", "wordfreq",
+  "scikit-learn", "python-multipart", "sse-starlette", "trafilatura", "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
