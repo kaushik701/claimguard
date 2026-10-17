@@ -12,6 +12,8 @@ rerank_model = "openai/gpt-oss-20b"
 expand_model = "openai/gpt-oss-20b"
 rewrite_model = "openai/gpt-oss-20b"
 copilot_model = "openai/gpt-oss-120b"
+# same-provider backup when a model hits its daily quota (separate quota per model on Groq)
+backup_model = "openai/gpt-oss-20b"
 timeout_s = 60
 max_retries = 2
 # USD per 1M tokens, for cost reporting (0 on the free tier; set your plan's prices)

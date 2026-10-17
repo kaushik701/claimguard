@@ -159,19 +159,28 @@ class LLMClient:
         except Exception as e:
             if not _transient(e):
                 raise LLMError(f"{provider} request failed: {str(e)[:300]}") from e
-            wait = _retry_after(e)
-        time.sleep(wait)
-        try:
-            return self._call(provider, model, prompt)
-        except Exception as e:
-            if not _transient(e):
-                raise LLMError(f"{provider} request failed: {str(e)[:300]}") from e
-            last = e
+            wait, last = _retry_after(e), e
+        if "per day" not in str(last).lower():          # a daily quota won't clear in 60 s: skip the retry
+            time.sleep(wait)
+            try:
+                return self._call(provider, model, prompt)
+            except Exception as e:
+                if not _transient(e):
+                    raise LLMError(f"{provider} request failed: {str(e)[:300]}") from e
+                last = e
         fb = self.fallback
         if fb and fb != provider and os.getenv(KEY_ENV[fb]):
             self.switched = True
             self.usage.fallbacks += 1
             return self._call(fb, DEFAULT_MODEL[fb], prompt)
+        # same provider, backup model with its own quota (e.g. gpt-oss-120b daily limit -> gpt-oss-20b)
+        bm = settings()["llm"].get("backup_model")
+        if bm and bm != model and provider_for(bm, provider) == provider:
+            self.usage.fallbacks += 1
+            try:
+                return self._call(provider, bm, prompt)
+            except Exception as e:
+                last = e
         raise LLMError(f"Rate limit or timeout on {provider} and no fallback key: {str(last)[:200]}")
 
     # ---- public

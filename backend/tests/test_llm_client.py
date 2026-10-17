@@ -84,3 +84,18 @@ def test_fake_llm_handler_fixture_and_recording(tmp_path):
     assert replay.json("claim_extractor", "prompt-2", ExtractOut).claims[0].text == "x"
     with pytest.raises(LLMError):
         replay.json("claim_extractor", "unseen", ExtractOut)
+
+
+def test_daily_quota_uses_backup_model_without_waiting(llm, monkeypatch):
+    monkeypatch.delenv("GEMINI_API_KEY")
+    seen, slept = [], []
+    monkeypatch.setattr(cl.time, "sleep", slept.append)
+
+    def call(provider, model, prompt):
+        seen.append(model)
+        if model == "openai/gpt-oss-120b":
+            raise Fake429("Rate limit reached ... tokens per day (TPD): Limit 200000")
+        return '{"claims": []}'
+    monkeypatch.setattr(llm, "_call", call)
+    llm.json("claim_extractor", "p", ExtractOut, step="extract")
+    assert seen == ["openai/gpt-oss-120b", "openai/gpt-oss-20b"] and slept == [] and llm.usage.fallbacks == 1
