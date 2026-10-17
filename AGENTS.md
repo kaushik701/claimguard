@@ -17,6 +17,8 @@
 ## Ownership
 - Claude Code: `backend/`, `knowledge/`, `data/`, `.github/`, `docs/PROGRESS.md`.
 - Antigravity: `frontend/`. Reads `frontend/src/api/openapi.json`; never changes it (propose changes in PROGRESS.md).
+- 17 Oct 2026 (owner's decision): Claude Code built both backend and frontend in one session; Antigravity may take
+  over `frontend/` from here.
 - Branches: `cc/day-N-<topic>` and `ag/day-N-<topic>`; merge via PR.
 
 ## Stack (locked, see docs/reviews/03_ENG_REVIEW.md)

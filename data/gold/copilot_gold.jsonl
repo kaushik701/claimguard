@@ -1,0 +1,20 @@
+{"id": "Q01", "question": "Can a detergent advert call itself eco-friendly without any qualifier?", "covered": true, "expected_docs": ["ASCI", "ASCI-GREEN", "CCPA-GW"]}
+{"id": "Q02", "question": "What must an influencer do when a post is a paid promotion?", "covered": true, "expected_docs": ["ASCI-INF", "ASCI"]}
+{"id": "Q03", "question": "Can a malt beverage be advertised as a health drink?", "covered": true, "expected_docs": ["FSSAI", "ASCI"]}
+{"id": "Q04", "question": "What does an advert need before claiming to be the No.1 brand?", "covered": true, "expected_docs": ["ASCI"]}
+{"id": "Q05", "question": "Are comparisons with competitor products allowed in ads?", "covered": true, "expected_docs": ["ASCI"]}
+{"id": "Q06", "question": "Can a fairness cream ad show darker skin as unattractive?", "covered": true, "expected_docs": ["ASCI"]}
+{"id": "Q07", "question": "When can a food label use the word natural?", "covered": true, "expected_docs": ["FSSAI"]}
+{"id": "Q08", "question": "What makes an environmental claim greenwashing?", "covered": true, "expected_docs": ["CCPA-GW", "ASCI-GREEN", "ASCI"]}
+{"id": "Q09", "question": "How should disclaimers be shown in an advertisement?", "covered": true, "expected_docs": ["ASCI"]}
+{"id": "Q10", "question": "Can an ad say its research proves a claim without naming the source?", "covered": true, "expected_docs": ["ASCI"]}
+{"id": "Q11", "question": "What is the GST rate on shampoo?", "covered": false, "expected_docs": []}
+{"id": "Q12", "question": "What is the maximum retail price format under Legal Metrology rules?", "covered": false, "expected_docs": []}
+{"id": "Q13", "question": "How do I register a trademark in India?", "covered": false, "expected_docs": []}
+{"id": "Q14", "question": "What are the Drugs and Magic Remedies Act penalties?", "covered": false, "expected_docs": []}
+{"id": "Q15", "question": "Who won the IPL in 2024?", "covered": false, "expected_docs": []}
+{"id": "Q16", "question": "What is the import duty on cosmetics?", "covered": false, "expected_docs": []}
+{"id": "Q17", "question": "How many paid leave days must an employer give?", "covered": false, "expected_docs": []}
+{"id": "Q18", "question": "What font must a pharmacy prescription use?", "covered": false, "expected_docs": []}
+{"id": "Q19", "question": "How do I file income tax returns?", "covered": false, "expected_docs": []}
+{"id": "Q20", "question": "What are the rules for drone photography in Delhi?", "covered": false, "expected_docs": []}

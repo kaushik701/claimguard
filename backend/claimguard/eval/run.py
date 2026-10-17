@@ -148,6 +148,28 @@ def kappa() -> dict:
     return {"kappa": round((po - pe) / (1 - pe), 3) if pe < 1 else 1.0, "n": len(pairs), "agreement": round(po, 3)}
 
 
+def copilot_eval(llm=None) -> dict:
+    """Grounded-answer rate on in-scope questions, correct-refusal rate on out-of-scope ones."""
+    from ..agents.copilot import answer
+    if llm is None:
+        from ..llm.client import LLMClient
+        llm = LLMClient()
+    rows = []
+    for q in load("copilot_gold"):
+        r = answer(llm, q["question"])
+        docs = {c["doc_id"] for c in r["citations"]}
+        rows.append({"id": q["id"], "covered_gold": q["covered"], "covered": r["covered"],
+                     "grounded": r["covered"] and bool(docs & set(q["expected_docs"])), "docs": sorted(docs)})
+    ins = [r for r in rows if r["covered_gold"]]
+    oos = [r for r in rows if not r["covered_gold"]]
+    m = {"grounded_answer_rate": round(sum(r["grounded"] for r in ins) / len(ins), 3) if ins else None,
+         "correct_refusal_rate": round(sum(not r["covered"] for r in oos) / len(oos), 3) if oos else None,
+         "n": len(rows), "rows": rows}
+    REPORTS.mkdir(exist_ok=True)
+    (REPORTS / f"eval_copilot_{datetime.now().strftime('%Y%m%d_%H%M')}.json").write_text(json.dumps(m, indent=1), encoding="utf-8")
+    return m
+
+
 def main() -> None:
     load_dotenv()
     ap = argparse.ArgumentParser(prog="claimguard.eval")
@@ -158,7 +180,12 @@ def main() -> None:
     r.add_argument("--sleep", type=float, default=0.0)
     r.add_argument("--fake", action="store_true", help="smoke test with recorded fixtures only (no network)")
     sub.add_parser("kappa")
+    sub.add_parser("copilot")
     a = ap.parse_args()
+    if a.cmd == "copilot":
+        m = copilot_eval()
+        print(json.dumps({k: v for k, v in m.items() if k != "rows"}, indent=1))
+        return
     if a.cmd == "kappa":
         print(json.dumps(kappa(), indent=1))
         return

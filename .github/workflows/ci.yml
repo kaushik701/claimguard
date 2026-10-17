@@ -1,0 +1,33 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: backend } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -e ".[dev]"
+      - run: ruff check claimguard --select E9,F63,F7,F82
+      - run: pytest -q          # no network: FakeLLM + made-up KB fixtures
+      - name: Holdout never in prompts or memory
+        run: |
+          python - <<'PY'
+          import json, pathlib, re
+          norm = lambda s: re.sub(r"\W+", " ", s.lower()).strip()
+          hold = [norm(json.loads(l)["text"]) for l in open("../data/gold/holdout.jsonl", encoding="utf-8") if l.strip()]
+          prompts = " ".join(norm(p.read_text(encoding="utf-8")) for p in pathlib.Path("claimguard/llm/prompts").glob("*.md"))
+          bad = [h for h in hold if len(h) > 15 and h in prompts]
+          assert not bad, bad
+          PY
+  frontend:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: frontend } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: npm install --no-audit --no-fund
+      - run: npm run lint
+      - run: npm run build
