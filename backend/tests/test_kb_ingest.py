@@ -41,3 +41,12 @@ def test_build_accounts_every_page():
     fssai = {p["page"]: p for p in pages if p["doc_id"] == "FSSAI"}
     assert all(fssai[i]["method"] == "excluded" or "Hkkx" not in fssai[i]["text"] for i in fssai)
     assert sum(p["method"] == "ocr" for p in pages if p["doc_id"] == "CCPA-GW") == 6
+
+
+def test_vision_parse_variants_and_reconcile():
+    from claimguard.kb.vision import parse, reconcile
+    a = parse('{"blocks": [{"text": "Kills 99.9% germs", "position": "top"}]}')
+    b = parse('[{"bbox_2d": [1, 2, 3, 4], "text_content": "Kills 99.9% germs"}]')
+    assert a.blocks[0].text == b.blocks[0].text == "Kills 99.9% germs"
+    r = reconcile([{"text": "Kills 99.9% germs"}, {"text": "Made-up misread"}], b)
+    assert [x["vision_agrees"] for x in r] == [True, False]

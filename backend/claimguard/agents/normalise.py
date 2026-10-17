@@ -57,7 +57,7 @@ def from_image(data: bytes, use_vision: bool = True) -> tuple[str, list[dict], s
         except Exception as e:  # vision optional
             note = f"vision reader unavailable ({str(e)[:80]}); OCR only"
     elif use_vision:
-        note = "OCR only (no GEMINI_API_KEY for the vision reader)"
+        note = "OCR only (no API key for the vision reader)"
     lines = vision.reconcile(lines, v)
     text, boxes = "", []
     for ln in lines:
